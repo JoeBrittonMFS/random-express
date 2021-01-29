@@ -1,0 +1,32 @@
+body {
+    background-color:lightgray;
+}
+.container{
+    display: flex;
+}
+  
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid lightslategray;
+    padding: 0px 30px;
+    margin: 0 30px;
+}
+
+
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+#keyValue, #keyCode, #charCode {
+    color: white;
+}
